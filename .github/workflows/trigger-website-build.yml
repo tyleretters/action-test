@@ -8,6 +8,7 @@ on:
 
 jobs:
   trigger_build_via_norns_community_merge:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: "Trigger https://norns.community Build"
